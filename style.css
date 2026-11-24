@@ -1,0 +1,6 @@
+:root{--bg:#faf6ef;--ink:#1c1a17;--muted:#6b645a;--accent:#c8452e}
+@media (prefers-color-scheme:dark){:root{--bg:#171513;--ink:#efe9df;--muted:#a59d90;--accent:#e2674f}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 16px}
+h1{font-size:2rem;margin:0 0 8px}h2{font-size:1.15rem;margin-top:32px}
+a{color:var(--accent)}.muted{color:var(--muted)}nav a{margin-right:16px}
